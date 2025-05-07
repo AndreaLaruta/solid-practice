@@ -10,7 +10,7 @@ public class GildedRose {
   public static void main(String[] args) {
 
     System.out.println("OMGHAI!");
-
+      System.out.println("this is Refactor, hello");
     items.add(new Item("+5 Dexterity Vest", 10, 20));
     items.add(new Item("Aged Brie", 2, 0));
     items.add(new Item("Elixir of the Mongoose", 5, 7));
