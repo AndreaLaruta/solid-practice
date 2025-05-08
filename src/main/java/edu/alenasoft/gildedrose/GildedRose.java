@@ -1,5 +1,10 @@
 package edu.alenasoft.gildedrose;
 
+import edu.alenasoft.gildedrose.ItemsClases.CConjuredItem;
+import edu.alenasoft.gildedrose.ItemsClases.CConsumable;
+import edu.alenasoft.gildedrose.ItemsClases.CEquipment;
+import edu.alenasoft.gildedrose.ItemsClases.CLegendaryItem;
+import edu.alenasoft.gildedrose.ItemsClases.CTicket;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +16,17 @@ public class GildedRose {
 
     System.out.println("OMGHAI!");
       System.out.println("this is Refactor, hello");
+      
+      CEquipment equipment = new CEquipment("+5 Dexterity Vest", 10, 20);
+      CConsumable consumable = new CConsumable("Aged Brie", 2, 0);
+      CConsumable consumable_elixir = new CConsumable("Elixir of the Mongoose", 5, 7);
+      CLegendaryItem legendaryItem_sulfuras = new CLegendaryItem("Sulfuras, Hand of Ragnaros", 0, 80);
+      CTicket ticket = new CTicket("Backstage passes to a TAFKAL80ETC concert", 15, 20);
+      CConjuredItem conjuredItem = new CConjuredItem("Conjured Mana Cake", 3, 6);
+      
+      
+      
+      
     items.add(new Item("+5 Dexterity Vest", 10, 20));
     items.add(new Item("Aged Brie", 2, 0));
     items.add(new Item("Elixir of the Mongoose", 5, 7));
